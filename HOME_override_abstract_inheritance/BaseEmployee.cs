@@ -1,7 +1,7 @@
 ﻿
 namespace HOME_override_abstract_inheritance
 {
-    public abstract class BaseEmployee   //    CAN NOT BE INTANTIETED 
+    public abstract class BaseEmployee   //    CAN NOT BE INSTANTIETED 
     {
         public int ID { get; set; }
         public string Fname { get; set; }
