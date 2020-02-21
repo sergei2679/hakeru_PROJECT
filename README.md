@@ -1,1 +1,0 @@
-# hakeru_PROJECT

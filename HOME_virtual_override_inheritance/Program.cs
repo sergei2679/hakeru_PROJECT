@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace HOME_virtual_override_inheritance         // dynamic polymorphism
+namespace HOME_virtual_override_inheritance         // Dynamic Polymorphism  must to use inheritance
 {
     class Program
     {
@@ -28,7 +28,7 @@ namespace HOME_virtual_override_inheritance         // dynamic polymorphism
                 this.DName = DName;
             }
 
-            override public void Info()         //  must to use inheritance for overriding method
+            override public void Info()         //  for overriding method  must to use inheritance
             {
                 base.Info();
                 Console.WriteLine("Department ID = " + DiD);
@@ -39,14 +39,13 @@ namespace HOME_virtual_override_inheritance         // dynamic polymorphism
 
         static void Main(string[] args)
         {
-                                            //       אין צורך לקרוא למחלקה כי היא לבד לא מממשת כלום 
-
+                                                //    אין צורך לקרוא למחלקה כי היא לבד לא מממשת כלום
             //University uni = new University();     
             //uni.Info();                               
 
-                                         //     כי לא ניתן לזהות בלי  , UNIVERSITY  חייב לשלוח פרטי  DEPARTMENT  במחלקה 
+                                 //  כי לא ניתן לזהות בלי  , UNIVERSITY  חייב לשלוח פרטי  DEPARTMENT  במחלקה 
 
-            Department dp = new Department(433, "californy", 11, "rttsddfhdfhdhdghd");   //    UiD, UName, DiD , DName
+            Department dp = new Department(433, "Tel-Aviv university", 11, "Finances department");
             dp.Info();
             Console.ReadKey();
         }
