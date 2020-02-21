@@ -1,0 +1,6 @@
+C:\Drive D\Lesson29012020_Time\obj\Debug\Lesson29012020_Time.csprojAssemblyReference.cache
+C:\Drive D\Lesson29012020_Time\bin\Debug\Lesson29012020_Time.exe.config
+C:\Drive D\Lesson29012020_Time\bin\Debug\Lesson29012020_Time.exe
+C:\Drive D\Lesson29012020_Time\bin\Debug\Lesson29012020_Time.pdb
+C:\Drive D\Lesson29012020_Time\obj\Debug\Lesson29012020_Time.exe
+C:\Drive D\Lesson29012020_Time\obj\Debug\Lesson29012020_Time.pdb
