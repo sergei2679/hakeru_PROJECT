@@ -4,7 +4,7 @@ namespace HOME_virtual_override_inheritance         // Dynamic Polymorphism  mus
 {
     class Program
     {
-        class University 
+        class University
         {
             protected int UiD;
             protected string UName;
@@ -20,7 +20,7 @@ namespace HOME_virtual_override_inheritance         // Dynamic Polymorphism  mus
         {
             protected int DiD;
             protected string DName;
-            public Department(int UiD,string UName, int DiD, string DName) 
+            public Department(int UiD, string UName, int DiD, string DName)
             {
                 base.UiD = UiD;
                 base.UName = UName;
@@ -36,19 +36,22 @@ namespace HOME_virtual_override_inheritance         // Dynamic Polymorphism  mus
             }
         }
 
-
         static void Main(string[] args)
         {
-                                                //    אין צורך לקרוא למחלקה כי היא לבד לא מממשת כלום
-            //University uni = new University();     
-            //uni.Info();                               
+            //    אין צורך לקרוא למחלקה כי היא לבד לא מממשת כלום
 
-                                 //  כי לא ניתן לזהות בלי  , UNIVERSITY  חייב לשלוח פרטי  DEPARTMENT  במחלקה 
+            //University uni = new University();     
+            //uni.Info();         
+            
+            // -----------------------------------------------
+
+            //   UNIVERSITY  חייב לשלוח פרטי  DEPARTMENT כדי להתקיים בקונסטרקטור של מחלקה 
+            //   UNIVERSITY תלוי ב DEPARTMENT
 
             Department dp = new Department(433, "Tel-Aviv university", 11, "Finances department");
             dp.Info();
+
             Console.ReadKey();
         }
-
     }
 }

@@ -4,31 +4,24 @@ namespace HOME_override_abstract_inheritance
 {
     class Program
     {
-        public static void Main()       //  public class for every 
+        public static void Main()       //  public class for every
         {
-            FullTimeEmployee f = new FullTimeEmployee()
-            {
-                ID = 123,
-                Fname = "fullTime",
-                Lname = "time",
-                AnnualSalary = 70000
-            };
+            // BaseEmployee b;         //  use like pointer
 
-            Console.WriteLine("Full Time Employee Salary = " + f.GetMonthlySalary());
+            FullTimeEmployee f1 = new FullTimeEmployee(100, "fulltime100", "time", 57000);
+            FullTimeEmployee f2 = new FullTimeEmployee(123, "fulltime123", "time", 70000);
+                                                   
+            Console.WriteLine("Full Time Employee1 Salary = " + f1.GetMonthlySalary());
+            Console.WriteLine("Full Time Employee2 Salary = " + f2.GetMonthlySalary());
 
-            ContractEmployee c = new ContractEmployee()
-            {
-                ID = 105,
-                Fname = "contract",
-                Lname = "cont",
-                HourlyPay = 80,
-                TotalHoursWorked = 300
-            };
+
+            ContractEmployee c = new ContractEmployee(105, "contract", "cont", 80, 300);
+
+            Console.WriteLine("Contract Employee Salary = " + c.GetMonthlySalary());
+
 
             Console.WriteLine("------------------------------------------");
 
-
-            Console.WriteLine("Full Time Employee Salary = " + c.GetMonthlySalary());
 
             Console.ReadLine();
         }
