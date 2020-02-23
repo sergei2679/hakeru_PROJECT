@@ -25,7 +25,7 @@ namespace HOME_override_abstract_inheritance
                 TotalHoursWorked = 300
             };
 
-            Console.WriteLine("Full Time Employee Salary = " + c.GetMonthlySalary());
+            Console.WriteLine("Contract Employee Salary = " + c.GetMonthlySalary());
 
             
             Console.WriteLine("------------------------------------------");
