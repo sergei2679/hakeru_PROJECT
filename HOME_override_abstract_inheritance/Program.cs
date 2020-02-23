@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace HOME_override_abstract_inheritance
 {
@@ -7,6 +7,7 @@ namespace HOME_override_abstract_inheritance
         public static void Main()       //  public class for every
         {
             // BaseEmployee b;         //  use like pointer
+
             FullTimeEmployee f1 = new FullTimeEmployee(100, "fulltime100", "time", 57000);
             FullTimeEmployee f2 = new FullTimeEmployee(123, "fulltime123", "time", 70000);
                                                    
@@ -14,16 +15,14 @@ namespace HOME_override_abstract_inheritance
             Console.WriteLine("Full Time Employee2 Salary = " + f2.GetMonthlySalary());
 
 
+            Console.WriteLine("------------------------------------------");
+
+
             ContractEmployee c = new ContractEmployee(105, "contract", "cont", 80, 300);
 
             Console.WriteLine("Contract Employee Salary = " + c.GetMonthlySalary());
 
-
-            Console.WriteLine("------------------------------------------");
-
-            Console.WriteLine("Contract Employee Salary = " + c.GetMonthlySalary());
-
-            
+         
             Console.WriteLine("------------------------------------------");
 
             Console.ReadLine();
