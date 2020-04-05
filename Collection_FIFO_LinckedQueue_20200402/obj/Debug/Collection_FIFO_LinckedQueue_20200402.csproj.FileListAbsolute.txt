@@ -1,6 +1,0 @@
-C:\Drive D\COLLECTION\Collection_FIFO_LinckedQueue_20200402\obj\Debug\Collection_FIFO_LinckedQueue_20200402.csproj.CoreCompileInputs.cache
-C:\Drive D\COLLECTION\Collection_FIFO_LinckedQueue_20200402\bin\Debug\Collection_FIFO_LinckedQueue_20200402.exe.config
-C:\Drive D\COLLECTION\Collection_FIFO_LinckedQueue_20200402\bin\Debug\Collection_FIFO_LinckedQueue_20200402.exe
-C:\Drive D\COLLECTION\Collection_FIFO_LinckedQueue_20200402\bin\Debug\Collection_FIFO_LinckedQueue_20200402.pdb
-C:\Drive D\COLLECTION\Collection_FIFO_LinckedQueue_20200402\obj\Debug\Collection_FIFO_LinckedQueue_20200402.exe
-C:\Drive D\COLLECTION\Collection_FIFO_LinckedQueue_20200402\obj\Debug\Collection_FIFO_LinckedQueue_20200402.pdb
