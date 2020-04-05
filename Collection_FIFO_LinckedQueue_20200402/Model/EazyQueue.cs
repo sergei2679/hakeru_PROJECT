@@ -2,7 +2,7 @@
 using System.Linq;
 
 
-namespace home_20200402_Collection_Queue.Model
+namespace Collection_FIFO_LinckedQueue_20200402.Model
 {
     public class EazyQueue<T>
     {
