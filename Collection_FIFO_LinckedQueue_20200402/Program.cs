@@ -1,8 +1,7 @@
-﻿using System;
-using home_20200402_Collection_Queue.Model;
+﻿using Collection_FIFO_LinckedQueue_20200402.Model;
+using System;
 
-
-namespace home_20200402_Collection_Queue
+namespace Collection_FIFO_LinckedQueue_20200402
 {
     class Program
     {
