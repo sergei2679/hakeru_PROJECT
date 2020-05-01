@@ -1,10 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
 
 namespace delegate_sort
 {
     public delegate int CompareDeleg(int a, int b);
-    //public delegate Action<string, bool>;
+
     class Program
     {
         static int[] arr;
@@ -31,10 +30,19 @@ namespace delegate_sort
 
         static void PrintArray()
         {
-            foreach (int num in arr)           
-                Console.Write(num + ",");
+            Console.Write("{");
 
-            Console.WriteLine();
+            for (int i = 0; i < arr.Length-1; i++)
+            {
+                Console.Write(arr[i] + ", ");
+            }
+
+            if (arr.Length > arr.Length-1)
+            {
+                Console.Write(arr[arr.Length - 1]);
+            }
+           
+            Console.WriteLine("}");
         }
 
         private static void Swap(int i, int j) 
@@ -58,8 +66,6 @@ namespace delegate_sort
             Console.WriteLine("\nDescending order");
             PrintArray();
 
-
-           
 
             Console.ReadLine();
         }
