@@ -26,7 +26,7 @@ namespace delegate_sort
             for (int i = 0; i < arr.Length - 1; i++)
                 for (int j = i + 1; j < arr.Length; j++)
                     if (compareMethod(arr[i], arr[j]) > 0)
-                        Replace(i, j);
+                        Swap(i, j);
         }
 
         static void PrintArray()
@@ -37,7 +37,7 @@ namespace delegate_sort
             Console.WriteLine();
         }
 
-        private static void Replace(int i, int j) 
+        private static void Swap(int i, int j) 
         {
             int temp = arr[i];
             arr[i] = arr[j];
