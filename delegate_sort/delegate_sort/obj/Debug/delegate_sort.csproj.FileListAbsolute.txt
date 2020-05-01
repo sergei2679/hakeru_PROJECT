@@ -1,0 +1,7 @@
+C:\Drive D\DELEGATES\delegate_sort\delegate_sort\bin\Debug\delegate_sort.exe.config
+C:\Drive D\DELEGATES\delegate_sort\delegate_sort\bin\Debug\delegate_sort.exe
+C:\Drive D\DELEGATES\delegate_sort\delegate_sort\bin\Debug\delegate_sort.pdb
+C:\Drive D\DELEGATES\delegate_sort\delegate_sort\obj\Debug\delegate_sort.csprojAssemblyReference.cache
+C:\Drive D\DELEGATES\delegate_sort\delegate_sort\obj\Debug\delegate_sort.csproj.CoreCompileInputs.cache
+C:\Drive D\DELEGATES\delegate_sort\delegate_sort\obj\Debug\delegate_sort.exe
+C:\Drive D\DELEGATES\delegate_sort\delegate_sort\obj\Debug\delegate_sort.pdb
