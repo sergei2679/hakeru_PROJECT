@@ -7,6 +7,9 @@ using System;
 using Collection_FIFO_LinckedQueue_20200402.Model;
 
 
+<<<<<<< HEAD
+>>>>>>> 7a26f2e24118fa0d210b1ffe526697d1d6734e9c
+=======
 >>>>>>> 7a26f2e24118fa0d210b1ffe526697d1d6734e9c
 namespace Collection_FIFO_LinckedQueue_20200402
 {
