@@ -3,7 +3,7 @@
 namespace delegate_sort
 {
     public delegate int CompareDeleg(int a, int b);
-
+    public delegate string CompareDeleg1(int a, int b);
     class Program
     {
         static int[] arr;
