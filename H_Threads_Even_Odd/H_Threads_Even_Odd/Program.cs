@@ -63,7 +63,7 @@ namespace H_Threads_Even_Odd
 
             for (int i = 1; i <= 10; i++)
             {
-                if (i % 2 == 0)
+                if (i % 2 != 0)
                     Console.WriteLine("found odd {0}", i);
                 Thread.Sleep(1000);
 
@@ -74,7 +74,7 @@ namespace H_Threads_Even_Odd
         {
             for (int i = 1; i <= 10; i++)
             {
-                if (i % 2 != 0)
+                if (i % 2 == 0)
                     Console.WriteLine("found even {0}", i);
                 Thread.Sleep(1000);
             }
