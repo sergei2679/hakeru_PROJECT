@@ -1,0 +1,7 @@
+C:\Drive D\DELEGATES\delegate_dictionary_calc\delegate_dictionary_calc\bin\Debug\delegate_dictionary_calc.exe.config
+C:\Drive D\DELEGATES\delegate_dictionary_calc\delegate_dictionary_calc\bin\Debug\delegate_dictionary_calc.exe
+C:\Drive D\DELEGATES\delegate_dictionary_calc\delegate_dictionary_calc\bin\Debug\delegate_dictionary_calc.pdb
+C:\Drive D\DELEGATES\delegate_dictionary_calc\delegate_dictionary_calc\obj\Debug\delegate_dictionary_calc.csprojAssemblyReference.cache
+C:\Drive D\DELEGATES\delegate_dictionary_calc\delegate_dictionary_calc\obj\Debug\delegate_dictionary_calc.csproj.CoreCompileInputs.cache
+C:\Drive D\DELEGATES\delegate_dictionary_calc\delegate_dictionary_calc\obj\Debug\delegate_dictionary_calc.exe
+C:\Drive D\DELEGATES\delegate_dictionary_calc\delegate_dictionary_calc\obj\Debug\delegate_dictionary_calc.pdb
