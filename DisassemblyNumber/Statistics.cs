@@ -88,7 +88,7 @@
 
         private void SetDigitSum(int number)
         {
-            digitSum = DigitSum(number);      // for each new instance of class include  'digitSum' has own static 'DigitSum(number)'
+            digitSum = DigitSum(number);      // for each instance of class has own static 'DigitSum(int number)'
         }
 
         public int GetDigitSum()
@@ -114,13 +114,13 @@
             maxDigit = MaxDigit(number);
         }
 
-        public int GetMaxDigit()    //  num = 812
+        public int GetMaxDigit()
         {
             return maxDigit;
         }
 
         // ------------------------------  MIN DIGIT  --------------
-        private static int MinDigit(int num)    //  num = 812
+        private static int MinDigit(int num)
         {
             int min = num;
             while (num > 0)
@@ -137,7 +137,7 @@
             minDigit = MinDigit(num);
         }
 
-        public int GetMinDigit()    //  num = 812
+        public int GetMinDigit()
         {
             return minDigit;
         }
