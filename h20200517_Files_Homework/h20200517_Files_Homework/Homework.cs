@@ -19,7 +19,7 @@ namespace h20200517_Files_Homework
 
             using (Stream stream = file.OpenWrite())
             {
-                for (int i = 0; i < 10; i++)           //  3 iteration = 3 integers
+                for (int i = 0; i < 10; i++)           //  10 iteration = 10 integers
                 {
                     //int x = random.Next();          // range from minValue(-2147483648) to maxValue(2147483647) integer
                     int x = random.Next(1, 250);      //  range from 1 to 250 integer randomaly
