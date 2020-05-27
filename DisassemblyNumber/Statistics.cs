@@ -2,11 +2,8 @@
 {
     class Statistics
     {
-        private static int instCounter = 0;
-        private int copyCounter;
         private int number;
         private int other;
-       // private int difference;
         private int digitCounter;
         private int digitSum;
         private int maxDigit;
@@ -17,8 +14,6 @@
 
         public Statistics(int number)
         {
-            instCounter++;
-            copyCounter = 0;
             this.number = number;
             numberStr = string.Format(number.ToString());
             other = 0;
@@ -27,7 +22,7 @@
             maxDigit = 0;
             minDigit = 0;
             reversed = 0;
-            reversedStr = "";           //  number string presentation    // 290 = 092;
+            reversedStr = "";              // 290 = 092;
             SetNumber(number);
             SetDigitCounter(number);
             SetDigitSum(number);
@@ -35,49 +30,19 @@
             SetMinDigit(number);
             SetReversed(number);
         }
+        
         public Statistics(Statistics other)    // copy constructor (recomendate)
         {
             this.other = other.number;
         }
-        public int InstCounter
-        {
-            get
-            {
-                return instCounter;
-            }
-            set
-            {
-                instCounter = value;
-            }
-        }
-        public int CopyCounter
-        {
-            get
-            {
-                return copyCounter;
-            }
-            set
-            {
-                copyCounter = value;
-            }
-        }
-        //private void SetInstCounter(int instCounter)
-        //{
-        //    this.instCounter = instCounter;
-        //}
-
-        //public int GetInstCounter()
-        //{
-        //    return instCounter;
-        //}
-
+      
 
         // ------------------------------ number -----------
         public int GetNumber()
         {
             return number;
         }
-        public void SetNumber(int number)
+        private void SetNumber(int number)
         {
             this.number = number;
         }
@@ -110,7 +75,7 @@
         }
 
         // ------------------------------  SUM DIGITS  --------------
-        static int DigitSum(int number)
+        private static int DigitSum(int number)
         {
             int sum = 0;
             while (number > 0)
@@ -123,7 +88,7 @@
 
         private void SetDigitSum(int number)
         {
-            digitSum = DigitSum(number);      // for each new instance of class include  'digitSum' has own static  'DigitSum(number)'
+            digitSum = DigitSum(number);      // for each instance of class has own static 'DigitSum(int number)'
         }
 
         public int GetDigitSum()
@@ -133,7 +98,7 @@
 
         // ------------------------------  MAX DIGIT  --------------
       
-        static int MaxDigit(int num)    //  num = 812
+        private static int MaxDigit(int num)    //  num = 812
         {
             int max = 0;
             while (num > 0)
@@ -144,18 +109,18 @@
             }
             return max;
         }
-        public void SetMaxDigit(int number)    //  num = 812
+        private void SetMaxDigit(int number)    //  num = 812
         {
             maxDigit = MaxDigit(number);
         }
 
-        public int GetMaxDigit()    //  num = 812
+        public int GetMaxDigit()
         {
             return maxDigit;
         }
 
         // ------------------------------  MIN DIGIT  --------------
-        static int MinDigit(int num)    //  num = 812
+        private static int MinDigit(int num)
         {
             int min = num;
             while (num > 0)
@@ -167,12 +132,12 @@
             return min;
         }
 
-        public void SetMinDigit(int num)   
+        private void SetMinDigit(int num)   
         {
             minDigit = MinDigit(num);
         }
 
-        public int GetMinDigit()    //  num = 812
+        public int GetMinDigit()
         {
             return minDigit;
         }
