@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script language="JavaScript">
+
+function compare(){
+	
+	let divRes = document.getElementById('divResult');
+
+	if((txtVar1.value)>(txtVar2.value))
+		divRes.innerHTML = "max value is : " + txtVar1.value;
+	else if((txtVar1.value)<(txtVar2.value))
+		divRes.innerHTML = "max value is : " + txtVar2.value;
+	else 
+	    divRes.innerHTML = "equals";
+}
+</script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0" max-scale="1.0" min-scale="1.0">
+</head>
+<body>
+<h1>Max value<h1>
+<input type="text"  id="txtVar1" value="" />
+<input type="text"  id="txtVar2" value="" />
+
+<button onClick="compare();">compare</button>
+
+<div id="divResult"></div>
+</body>
+</html>
