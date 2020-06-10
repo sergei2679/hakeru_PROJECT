@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+
+function swapValues(){
+	let tmp = document.getElementById("txtVar1").value;
+	document.getElementById("txtVar1").value = document.getElementById("txtVar2").value;
+	document.getElementById("txtVar2").value = tmp;
+}
+</script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0" max-scale="1.0" min-scale="1.0">
+</head>
+<body>
+
+<input type="text"  id="txtVar1" value="" />
+<input type="text"  id="txtVar2" value="" />
+<input type="button"  onclick="swapValues()" value="Swap" />
+
+</body>
+</html>
