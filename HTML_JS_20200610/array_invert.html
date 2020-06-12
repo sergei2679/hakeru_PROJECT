@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script language="JavaScript">
+
+let fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+function invertArray(pFruits){
+    let invertedArr=[];
+	
+	for(let i=pFruits.length-1;i>=0;i--)
+	{
+		invertedArr.push(pFruits[i]);
+	}	
+	
+	console.log(invertedArr);
+
+}
+
+</script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0" max-scale="1.0" min-scale="1.0">
+</head>
+<body onload="invertArray(fruits)">
+<h1>Invert Array<h1>
+<div id="divResult"><div/>
+</body>
+</html>
