@@ -29,56 +29,8 @@ namespace csv_read_write
                 Console.WriteLine(s);
             }
         }
-
-        //private DataTable BuildDataTable()
-        //{
-        //    DataTable table = new DataTable();
-        //    try
-        //    {
-        //        using (TextFieldParser csvReader = new TextFieldParser(filePath))
-        //        {
-        //            csvReader.HasFieldsEnclosedInQuotes = true;
-        //            csvReader.SetDelimiters(new string[] { "," });
-
-        //            string[] colFields = csvReader.ReadFields();
-
-        //            foreach (string column in colFields)
-        //            {
-        //                DataColumn column1 = new DataColumn(column);
-        //                DataColumn column2 = new DataColumn(column);
-        //                DataColumn column3 = new DataColumn(column);
-
-        //                column1.AllowDBNull = true;
-        //                column2.AllowDBNull = true;
-        //                column3.AllowDBNull = true;
-
-        //                table.Columns.Add(column1);
-        //                table.Columns.Add(column2);
-        //                table.Columns.Add(column3);
-        //            }
-        //            while (!csvReader.EndOfData)
-        //            {
-        //                string[] fieldData = csvReader.ReadFields();
-        //                //Making empty value as null
-        //                for (int i = 0; i < fieldData.Length; i++)
-        //                {
-        //                    if (fieldData[i] == "")
-        //                    {
-        //                        fieldData[i] = null;
-        //                    }
-        //                }
-        //                table.Rows.Add(fieldData);
-        //            }
-        //        }
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        return null;
-        //    }
-        //    return table;
-        //}
-
-        public void Write()  // string timeStamp
+        
+        public void Write()
         {
             try
             {
@@ -103,8 +55,6 @@ namespace csv_read_write
 
                 //set up connection to database.
                 SqlConnection sqlConn;
-
-                //string cDEString = "Data Source=localhost\\NAMEDPIPE;Initial Catalog=db;User Id=user;Password=pwd";
                 string strCommand = "select OrderID,ShipCountry,ShippedDate from Orders";
 
                 try
@@ -165,20 +115,6 @@ namespace csv_read_write
                 MessageBox.Show(ex.Message);
             }
         }
-
-        //public string[] GetArray()
-        //{
-        //    return array;
-        //}
-
-        //public void PrintScreen()
-        //{
-        //    //string[] arr = new string[];
-        //    var s = UniqueList(array);
-        //    foreach (var r in s)
-        //        Console.WriteLine(r);
-        //}     
-
     }
 
 }
