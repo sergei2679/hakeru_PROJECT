@@ -14,8 +14,7 @@ namespace delegate_dictionary_calc
 
 
             //   אם נרצה מחר להוסיף למחלקה המקומפלת עוד פעולות זה שינוי די יקר,
-            // DLL כי צריך לקמפל מחדש את המודול
-
+            
             calc.DefineOperation("mod", (x, y) => x % y);        // כך נוכל להוסיף פעולות בלי לקמפל מחדש את המחלקה
             var mod = calc.PerformOperation("mod", 4.0, 2.0);    // לדוגמא מוסיפים פעולת מודולו
             Console.WriteLine("mod operation = " + mod);
