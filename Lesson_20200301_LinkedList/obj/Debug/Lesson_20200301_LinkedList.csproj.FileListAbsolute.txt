@@ -1,6 +1,0 @@
-C:\Drive D\List\Lesson_20200301_LinkedList\bin\Debug\Lesson_20200301_LinkedList.exe.config
-C:\Drive D\List\Lesson_20200301_LinkedList\bin\Debug\Lesson_20200301_LinkedList.exe
-C:\Drive D\List\Lesson_20200301_LinkedList\bin\Debug\Lesson_20200301_LinkedList.pdb
-C:\Drive D\List\Lesson_20200301_LinkedList\obj\Debug\Lesson_20200301_LinkedList.csprojAssemblyReference.cache
-C:\Drive D\List\Lesson_20200301_LinkedList\obj\Debug\Lesson_20200301_LinkedList.exe
-C:\Drive D\List\Lesson_20200301_LinkedList\obj\Debug\Lesson_20200301_LinkedList.pdb

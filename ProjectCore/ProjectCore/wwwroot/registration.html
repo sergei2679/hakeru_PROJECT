@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>     
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>-->
+    <title></title>
+    <script src="../validate-registration.js"></script>
+</head>
+                                                                                                                                                                                                                                
+<body>
+    <div id="myForm">
+        <h2>Registration Form</h2>
+        <form id="myTableData" name="myForm" onsubmit='return validate(this)'>
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <td><input type="text" name="name" placeholder="Name" id="name" class="information" onkeypress="return restrictCharacters(event);" /></td>
+                    <td><span id="span1"></span></td>
+                </tr>
+
+                <tr>
+                    <th>Age</th>
+                    <td>
+                        <input type="number" name="age" id="age" class="information" onkeypress="return event.charCode === 0 || /\d/.test(String.fromCharCode(event.charCode));" placeholder="Age" />
+                    </td>
+                    <td><span id="span2"></span></td>
+                </tr>
+
+                <tr>
+                    <th>Password</th>
+                    <td>
+                        <input type="password" name="password" autocomplete="cc-number" id="password" class="information" placeholder="Password" />
+                    </td>
+                    <td><span id="span3"></span></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <!--<input type="button" name="button" value="Proceed" onclick="validate();" />-->
+                        <button type='submit'>Try</button>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span id="span4"></span>
+                    </td>
+                </tr>
+
+            </table>
+        </form>
+    </div>
+
+</body>
+</html>

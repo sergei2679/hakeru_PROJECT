@@ -1,0 +1,12 @@
+C:\Drive D\C#\ProjectCore\ProjectRepository\bin\Debug\netcoreapp3.1\ProjectRepository.deps.json
+C:\Drive D\C#\ProjectCore\ProjectRepository\bin\Debug\netcoreapp3.1\ProjectRepository.dll
+C:\Drive D\C#\ProjectCore\ProjectRepository\obj\Debug\netcoreapp3.1\ProjectRepository.csprojAssemblyReference.cache
+C:\Drive D\C#\ProjectCore\ProjectRepository\obj\Debug\netcoreapp3.1\ProjectRepository.AssemblyInfoInputs.cache
+C:\Drive D\C#\ProjectCore\ProjectRepository\obj\Debug\netcoreapp3.1\ProjectRepository.AssemblyInfo.cs
+C:\Drive D\C#\ProjectCore\ProjectRepository\obj\Debug\netcoreapp3.1\ProjectRepository.csproj.CoreCompileInputs.cache
+C:\Drive D\C#\ProjectCore\ProjectRepository\bin\Debug\netcoreapp3.1\ProjectRepository.pdb
+C:\Drive D\C#\ProjectCore\ProjectRepository\bin\Debug\netcoreapp3.1\DataAccess.dll
+C:\Drive D\C#\ProjectCore\ProjectRepository\bin\Debug\netcoreapp3.1\DataAccess.pdb
+C:\Drive D\C#\ProjectCore\ProjectRepository\obj\Debug\netcoreapp3.1\ProjectRepository.csproj.CopyComplete
+C:\Drive D\C#\ProjectCore\ProjectRepository\obj\Debug\netcoreapp3.1\ProjectRepository.dll
+C:\Drive D\C#\ProjectCore\ProjectRepository\obj\Debug\netcoreapp3.1\ProjectRepository.pdb

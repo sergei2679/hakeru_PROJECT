@@ -1,9 +1,0 @@
-C:\Drive D\Forms\CS_Tax\bin\Debug\CS_Tax.exe.config
-C:\Drive D\Forms\CS_Tax\bin\Debug\CS_Tax.exe
-C:\Drive D\Forms\CS_Tax\bin\Debug\CS_Tax.pdb
-C:\Drive D\Forms\CS_Tax\obj\Debug\CS_Tax.csprojAssemblyReference.cache
-C:\Drive D\Forms\CS_Tax\obj\Debug\CS_Tax.Form1.resources
-C:\Drive D\Forms\CS_Tax\obj\Debug\CS_Tax.Properties.Resources.resources
-C:\Drive D\Forms\CS_Tax\obj\Debug\CS_Tax.csproj.GenerateResource.cache
-C:\Drive D\Forms\CS_Tax\obj\Debug\CS_Tax.exe
-C:\Drive D\Forms\CS_Tax\obj\Debug\CS_Tax.pdb
